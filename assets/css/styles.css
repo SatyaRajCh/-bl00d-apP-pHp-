@@ -1,0 +1,23 @@
+
+.rm-toggle.rm-button {
+    margin-top: 25px;
+}
+
+.rm-css-animate.rm-menu-expanded {
+    max-height: none;
+    display: block;
+}
+
+.rm-nav li a,
+.rm-top-menu a {
+    padding: .75rem 1rem;
+    font-size: .9em;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+.rm-layout-expanded .rm-nav > ul > li > a,
+.rm-layout-expanded .rm-top-menu > .rm-menu-item > a {
+    height: 80px;
+    line-height: 80px;
+}
+

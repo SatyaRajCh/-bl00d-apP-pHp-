@@ -1,0 +1,961 @@
+a:hover,a:focus,a:active{
+	outline: none;
+}
+.pt18{
+	padding-top: 18px;
+}
+.login_bg {
+	background: url('../images/dude_blurred@2x.png') no-repeat center bottom;
+	background-size: 1440px auto;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	margin: auto;
+	height: 886px;
+	text-decoration: none;
+	display: block;
+	color: #FFF !important;
+}
+.login_page_logo{
+	background: transparent url("../images/logo_savings@1x.png") no-repeat scroll center bottom;
+	width: 50px;
+	height: 60px;
+	padding-top: 200px;
+}
+.login_textbox{
+	width:85%;
+	height: 60px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid white;
+	text-align: center;
+	color:white;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 27px;
+}
+.login_text{
+	width: 114px;
+	height: 58px;
+	color: white;
+	font-size: 48px;
+	font-weight: 300;
+	line-height: 58px;
+	padding-bottom: 20px;
+}
+
+.login_err_msg{
+   color:#B7A046;
+   font-weight:bold;
+   padding:5px;
+}
+
+
+.b_pad10{
+	padding-bottom: 10px;
+}
+.b_pad20{
+	padding-bottom: 20px;
+}
+.b_pad30{
+	padding-bottom: 30px;
+}
+.forget_pass_link{
+	width: 125px;
+	height: 20px;
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+	
+}
+.width350{
+	width: 350px;
+}
+.width250{
+	width: 250px;
+}
+.t_pad20{
+	padding-top: 20px;
+}
+.t_pad30{
+	padding-top: 30px;
+}
+.t_pad40{
+	padding-top: 40px;
+}
+.t_pad100{
+	padding-top: 100px;
+}
+.t_pad70{
+	padding-top: 70px;
+}
+.login_btn{
+	width: 219px;
+	height: 45px;
+	background-color: #557ac1;
+	border-radius: 40px;
+	color: white;
+	font-family: "Proxima Nova";
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 27px;
+	border: 0px;
+}
+.login_btn:hover,.login_btn:focus,.login_btn:active{
+	background-color: #395791 !important;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color:#fff;
+}
+input[type="text"]::-moz-input-placeholder {
+    color:#fff;
+}
+input[type="password"]::-webkit-input-placeholder {
+    color:#fff;
+}
+input[type="password"]::-moz-input-placeholder {
+    color:#fff;
+}
+.trans-after .mtop_after{
+	margin-top: -15px !important;
+}
+.trans-after .mtop_logout_after{
+	margin-top: 5px !important;
+}
+.mtop_logout_after a,.links_style a{
+	text-decoration: none;
+	color: #585858;
+}
+ .mtop_logout_after a:hover, .mtop_logout_after a:focus,{
+ 	opacity: 0.5;
+ }
+ .mtop_logout_after a:hover, .links_style a:hover{
+ 	opacity: 0.5;
+ }
+.color-ash{
+	color: #585858;
+}
+.color-light-ash{
+	color: #979797;
+}
+.no-padding{
+	padding: 0;
+}
+.my_dashboard{
+	margin-top: 7px;
+}
+.dashboard_left{
+	margin-left: -2%;
+}
+.user_image{
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+.edit_padding{
+	padding: 4px 15px 2px 15px;
+}
+.margin_progile{
+	margin-top: -12px;
+}
+.edit_profile_image{
+	border-radius: 50%;
+	background-color: #cecece;
+	width: 70px;
+	height: 70px;
+	border: 2px solid white;
+}
+.left_bg{
+	background-color: #343740;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 2px solid #fff;
+}
+.platinum_bg {
+	background-color: #bdd467;
+}
+.content_bg{
+	background-color: #575a61;
+}
+.device_image1{
+	background: transparent url("../images/bitmap.png") no-repeat scroll center bottom / 1920px auto;
+	width: 60px;
+	height: 77px;
+	background-size: 100% 100%;
+}
+.device_image2{
+	background: transparent url("../images/device_aria.png") no-repeat scroll center bottom / 1920px auto;
+	width: 60px;
+	height: 50px;
+	background-size: 100% 100%;
+}
+.headings_color{
+	color: #343740;
+}
+.w42p{
+	width: 42%;
+}
+.f8{font-size:8px}
+
+.f36{
+	font-size: 36px;
+}
+.f48{
+	font-size: 48px;
+}
+.f46{
+	font-size: 46px;
+}
+.f44{
+	font-size: 44px;
+}
+.pt80{
+	padding-top: 80px;
+}
+.green_text{
+	color: #bdd467;
+}
+.yellow_text{
+	color: #e1a246;
+}
+.red_text{
+	color: #d34b5c;
+}
+.red_border{
+	width: 68px;
+	height: 68px;
+	border: 6px solid;
+	border-radius: 50%;
+}
+.black_bg{
+	background-color: #343740;
+}
+.light_black_bg{
+	background-color: #51545b;
+}
+.light_black_bg hr{
+	width: 90%;
+	border: 1px solid #979797;
+}
+.li_section {
+	height: 70px;
+}
+.li_section > ul{
+	padding: 18px;
+}
+.li_section > ul > li {
+    display: inline;
+    color: white;
+	font-size: 12px;
+	font-weight: 700;
+}
+.nav-tabs{
+	border: 0px;
+}
+.li_section .nav-tabs > li > a, .li_section .nav-tabs > li > a:hover,.li_section .nav-tabs > li > a:active{
+	color: #fff;
+	font-weight: normal;
+	font-size: 12px;
+	background-color: transparent;
+	border: 0px solid;
+	opacity: 0.5;
+	font-weight: 700;
+}
+.li_section .nav-tabs > li.active > a, .li_section .nav-tabs > li.active > a:hover, .li_section .nav-tabs > li.active > a:focus{
+	background-color: transparent;
+	color: #fff;
+	border: 0px solid;
+	opacity: 1;
+}
+.login_li li > a{
+	padding: .75rem 1.75rem !important;
+}
+.graph_bg{
+	background-color: #f2f2f2;
+}
+.activity_btn1,.activity_btn1:hover,.activity_btn1:focus{
+	background-color: #557ac1;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+	text-decoration: none;
+	color: #fff;
+}
+.activity_btn2,.activity_btn2:hover,.activity_btn2:focus{
+	background-color: white;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	text-decoration: none;
+	color: #557ac1;
+}
+.btn2_margin{
+	margin-left: -1%;
+}
+.activity{
+	padding: 27px;
+}
+.family_img{
+	background: transparent url("../images/fitbit_family_man_wife_asian_kitchen.png") no-repeat scroll center bottom / 1920px auto;
+	width: 250px;
+	height: 227px;
+	background-size: 100% 100%;
+}
+.family_member_bg{
+	width: 251px;
+	height: 227px;
+	background-color: #515153;
+}
+.btn_green_bg{
+	background-color: #b0c965;
+}
+.container_padding{
+	padding-right: 90px;
+}
+.bottom_section{
+	padding-top: 530%;
+	padding-bottom: 20px;
+}
+.left_logo{
+	background: transparent url("../images/logo_savings@2x.png") no-repeat scroll center bottom / 1920px auto;
+	width: 27px;
+	height: 32px;
+	background-size: 100% 100%;
+}
+.pt82{
+	padding-top: 82px;
+}
+.pt159{
+	padding-top: 159px;
+}
+.mb48{
+	margin-bottom: 48px;
+}
+.h353{
+	height: 353px;
+}
+.h300{
+	height: 300px;
+}
+.h250{
+	height: 250px;
+}
+.h195{
+	height: 195px;
+}
+.pt3{padding-top:3px;}
+.mt3{margin-top:3px;}
+.mt13{margin-top:13px;}
+.pl24{
+	padding-left: 24px;
+}
+.pl15{
+	padding-left: 15px;
+}
+.pr15{
+	padding-right: 15px;
+}
+.tick_img{
+	background: transparent url("../images/tick.png") no-repeat scroll center bottom / 1920px auto;
+	width: 26px;
+	height: 21px;
+	background-size: 100% 100%;
+}
+.close_img{
+	background: transparent url("../images/close.png") no-repeat scroll center bottom / 1920px auto;
+	width: 20px;
+	height: 20px;
+	background-size: 100% 100%;
+}
+.border_bottom{
+	border-bottom: 1px solid #979797;
+}
+.ok_btn{
+	background-color: #557ac1;
+	border-radius: 40px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.ok_btn:hover, .ok_btn:focus {
+	background-color: #395791 !important;
+	text-decoration: none;
+	color: #fff;
+}
+.modal-content{
+	border-radius: 0px;
+}
+.modal-backdrop{
+	background-color: #fff;
+}
+.modal-backdrop.in{
+	opacity: 0.6;
+}
+a:hover,a:focus{
+	text-decoration: none;
+}
+.edit_profile{
+	text-transform: uppercase;
+	/*margin-top: -2%;*/
+}
+.edit_profile, .edit_profile a:hover, .edit_profile a:focus{
+	cursor: pointer;
+	color: #979797;
+}
+.back_dashboard_btn{
+	background-color: #557ac1;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 15px;
+	border: none;
+}
+.back_dashboard_btn:hover,.back_dashboard_btn:focus,.back_dashboard_btn:active{
+	color: #fff !important;
+	background-color: #395791 !important;
+}
+.dashboard_btn_billing{
+	border: 2px solid #557ac1;
+	border-radius: 40px;
+	color: #557ac1 !important;
+	font-size: 15px;
+}
+.dashboard_btn_billing:hover, .dashboard_btn_billing:focus, .dashboard_btn_billing:active{
+	background-color: #395791 !important;
+	color: #fff !important;
+	opacity: 1 !important;
+}
+.text_upper{
+	text-transform: uppercase;
+}
+.fitbit_flex_profile{
+	background: transparent url("../images/fitbit_chargehr@2x.png") no-repeat scroll center bottom / 1920px auto;
+	width: 93px;
+	height: 122px;
+	background-size: 100% 100%;
+}
+.fitbit_aria_profile{
+	background: transparent url("../images/fitbit_ariascale@2x.png") no-repeat scroll center bottom / 1920px auto;
+	width: 170px;
+	height: 105px;
+	background-size: 100% 100%;
+}
+.fa{
+	font-size: 18px !important;
+}
+.days_div{
+	position: absolute;
+	margin-top: 21px;
+}
+.yellow_div{
+	text-align: left;
+	margin-left: 23%;
+}
+.banner_dashboard{
+	background: url('../images/dude_blurred@1x.png') no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	margin: auto;
+	height: 750px;
+	text-decoration: none;
+	display: block;
+	color: #FFF !important;
+	padding-top: 0px;
+	margin-top: 83px;
+}
+.top_div{
+	margin-top: -5%;
+}
+.lock_icon{
+	background: transparent url("../images/icon_changepw@2x.png") no-repeat scroll center bottom / 1920px auto;
+	width: 11px;
+	height: 15px;
+	background-size: 100% 100%;
+}
+.icon_m{
+	margin-top: -2px;
+}
+.photo_icon{
+	background: transparent url("../images/icon_photo@2x.png") no-repeat scroll center bottom / 1920px auto;
+	width: 18px;
+	height: 15px;
+	background-size: 100% 100%;
+}
+.edit_icon{
+	background: transparent url("../images/icon_editpencil@2x.png") no-repeat scroll center bottom / 1920px auto;
+	width: 10px;
+	height: 10px;
+	background-size: 100% 100%;
+}
+.mr85{
+	margin-right: 85px;
+}
+.ml3{
+	margin-left: 3px;
+}
+.mt12{
+	margin-top: 12px;
+}
+.password_form ::-webkit-input-placeholder {
+    color: #393939 !important;
+}
+.password_form ::-moz-placeholder {
+    color: #393939 !important;
+}
+.password_form ::-ms-input-placeholder {
+   color: #393939 !important;
+}
+.password_form input{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+#savings_three_months div{
+	width: 100% !important;
+}
+.left_margin_div{
+	margin-left: -25%;
+}
+.days_margin{
+	position: absolute;
+	margin-top: 10%
+}
+.edit_div input[type="text"]{
+	border: 0px;
+	background-color: #f2f2f2;
+	font-size: 17px;
+	font-weight: 600;
+	color: #585858;
+	width: 100%;
+}
+.account_section li a, .account_section li a:hover, .account_section li a:focus, .account_section li a:active{
+	color: #fff;
+}
+.account_section li{
+	display: inline-block;
+	border-right: 1px solid #979797;
+	padding: 0px 10px;
+}
+.billing_success li a{
+	color: #557ac1;
+}
+.billing_success li a:hover,.billing_success li a:focus, .billing_success li a:active {
+	color: #395791;
+}
+.account_section li:last-child{
+	border: none;
+}
+.account_section li:first-child{
+	padding-left: 0 !important;
+}
+.account_section, .billing_li_section ul{
+	margin-left: 0;
+	-webkit-padding-start:0;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	padding-left: 0;
+}
+.billing_li_section ul{
+	border-bottom: 2px solid #f2f2f2;
+}
+.billing_li_section .nav-tabs > li > a
+{
+	color: #979797;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	border: none;
+	padding: 10px 30px;
+}
+.billing_li_section .nav > li > a:hover, .billing_li_section .nav > li > a:focus, .billing_li_section .nav-tabs > li.active > a, .billing_li_section .nav-tabs > li.active > a:hover, .billing_li_section .nav-tabs > li.active > a:focus{
+	color: #557ac1;
+	background-color: white !important;
+	border: none;
+}
+.billing_li_section > ul >  .active{
+	border-bottom: 2px solid #557ac1;
+}
+.bb-ash{
+	border-bottom: 1px solid #ccc;
+}
+.border_black{
+	border-right: 3px solid #343740;
+	border-left: 3px solid #343740;
+	border-bottom: 3px solid #343740;
+}
+input[type=radio] + label:before{
+	border-radius:50%;
+	width:14px;
+	background-color: #f2f2f2;
+}
+/* CHECKED */
+input[type=radio]:checked + label:before{
+	background-color: #557ac1;
+	border: 1px solid #979797;
+}
+/* COMMON RADIO AND CHECKBOX STYLES  */
+
+input[type=radio]{  /* hide original inputs */
+  visibility: hidden;
+  position: absolute;
+}
+input[type=radio] + label{
+  cursor:pointer;
+}
+input[type=radio] + label:before{
+  height:14px;
+  content: " ";
+  display:inline-block;
+  vertical-align: baseline;
+  transition: 0.3s;
+  border:1px solid #ccc;
+  border-radius:10px;
+  margin-right: 10px;
+}
+input[type="checkbox"]:checked + label::after {
+   content: '';
+   position: absolute;
+	width: 16px;
+	height: 10px;
+	top: 2px;
+	left: 3px;
+	border: 4px solid #557ac1;
+	border-top: none;
+	border-right: none;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+input[type="checkbox"] {
+   line-height: 2.1ex;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+   content: "";
+   display: inline-block;
+   vertical-align: -23%;
+   width: 20px;
+	height: 20px;
+	background-color: white;
+	border: 1px solid #e2e2e2;
+   margin-right: 0.5em;
+}
+.pl120{
+	padding-left: 120px;
+}
+.pr120{
+	padding-right: 120px;
+}
+.disable{
+	opacity: 0.5;
+}
+button:hover,button:focus,button:active, html input[type="button"]:hover, html input[type="button"]:focus, html input[type="button"]:active, input[type="reset"]:hover, input[type="reset"]:focus,input[type="reset"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active{
+	outline: none;
+}
+#paybill_icon .f14{
+	font-size: 14px !important;
+}
+.dashboard_text:hover,.dashboard_text:focus,.dashboard_text:active{
+	color: #585858;
+	opacity: 0.5
+}
+.font700{
+		font-weight: 700;
+	}
+	.font300{
+		font-weight: 300;
+	}
+	.bill_year{
+		width: 32px;
+		height: 17px;
+		color: white;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	#history_table tr {
+		border-bottom: 1pt solid #ccc;
+		height: 40px;
+	}
+	#view_bill_table tr {
+		border-bottom: 1pt solid #ccc;
+		height: 40px;
+	}
+	#paymnt_table tr {
+		border-bottom: none;
+		height: 40px;
+	}
+
+	.td_text {
+		height: 17px;
+		color: #585858;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.print_text{
+		height: 17px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	#slct_year {
+        /*for firefox*/
+        -moz-appearance: none;
+        /*for chrome*/
+        -webkit-appearance:none;
+    }
+    #slct_year {
+    	height: 17px;
+		color: white;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 17px;
+		background-color: #343740;
+		border:none;
+		outline: none;
+		margin-top: 1%; 
+		background-position:90% 60%;
+		background-repeat:no-repeat;
+		width:50px
+    }
+		
+	#slct_year::-ms-expand {
+	    display: none;
+	}
+	.view_popup{
+		height: 320px;
+		background-color: #f2f2f2;
+		border: 3px solid #343740;
+	}
+	.view_popup_header{
+		padding:10px;
+		background-color: #343740;
+	}
+	.total_amnt{
+		height: 41px;
+		color: #585858;
+		font-size: 34px;
+		font-weight: 700;
+		line-height: 41px;
+	}
+	.crd_details{
+		height: 15px;
+		color: #979797;
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 15px;
+	}
+	#update_payment_btn{
+		width: 174px;
+		height: 32px;
+		background-color: #557ac1;
+		border-radius: 40px 40px 40px 40px;
+		color: white;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 17px;
+		border: none;
+		background-repeat:no-repeat;
+		background-position : 15% 50%;
+		padding-left:30px;
+	}
+	#security_code{
+		background-repeat: no-repeat;
+		background-position: 90%;
+		
+	}
+	.crd_bg {
+		height: 28px;
+		background-color: white;
+		border: 1px solid #979797;
+		color: #585858;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 17px;
+	}
+	.disable{
+		pointer-events: none;
+	}
+#view_bill_table td, .text-shadow{
+	text-shadow: 0 0 20px rgb(111, 111, 111);
+}
+.box-shadow{
+	box-shadow: 0 5px 5px rgba(111, 111, 111, 0.3) inset;
+}
+.ui-widget-header {
+	background-color: #cfcfcf !important;
+ color: #343740 !important;
+ font-size: 14px !important;
+ font-weight: 300 !important; 
+ background-image: none !important;
+ border: none !important;
+text-transform: uppercase;
+}
+.ui-widget-content{
+	border:none !important;
+}
+.cancel_date_btn{
+	color: #979797 !important;
+	font-size: 10px !important;
+	font-weight: 300 !important;
+	text-decoration: underline;
+	background-color: white !important;
+}
+#cancel_date_btn{
+	margin-top: -10px !important;
+}
+#differentdatepicker {
+    display: none;
+}
+.ui-icon-circle-triangle-w,.ui-icon-circle-triangle-w:hover{
+	background-image: url(../images/date-arrow-left.png) !important;
+	background-position: 0px 0px !important;
+	margin-left: 315% !important;
+	cursor: pointer;
+}
+.ui-icon-circle-triangle-e,.ui-icon-circle-triangle-e:hover{
+	background-image: url(../images/date-arrow-right.png) !important;
+	background-position: 0px 0px !important;
+	margin-left: -420% !important;
+	cursor: pointer;
+}
+#ui-datepicker-div button.ui-datepicker-current
+ {}
+.ui-datepicker-buttonpane  .ui-datepicker-close{
+	background-color: #557ac1 !important;
+	border-radius: 40px !important;
+	color: #fff !important;
+}
+.ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{
+	background: transparent !important;
+	border: none !important;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span{
+	top: 35% !important;
+}
+.ui-corner-all{
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+.ui-datepicker table th{
+	background-color: #ebebeb;
+	color: #343740 !important;
+	font-size: 14px !important;
+	font-weight: 300 !important;
+}
+.ui-datepicker-title{
+	text-shadow: 0 0 20px rgb(111, 111, 111);
+}
+.ui-datepicker table tr{
+	border-bottom: 1px solid #ebebeb;
+	text-shadow: 0 0 20px rgb(111, 111, 111);
+}
+.ui-datepicker table thead{
+	box-shadow: 0 6px 5px -6px #6f6f6f;
+}
+.ui-datepicker{
+	padding: 0px !important;
+}
+.ui-widget-content {
+    background: #FFF !important;
+}
+#ui-datepicker-div{
+    border: 3px solid #343740 !important;
+}
+.ui-datepicker table td{
+	padding: 12px !important;
+}
+.ui-widget,.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+	font-family: "Proxima Nova",Tahoma !important;
+}
+.ui-state-default, .ui-widget-header .ui-state-default{
+	border:none !important;
+	background: none !important;
+	color: #557ac1 !important;
+	font-size: 14px !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	background-color: #557ac1 !important;
+	color: white !important;
+}
+.ui-datepicker-today, .ui-datepicker-current-day {
+	background-color:#557ac1 !important;
+ }
+.ui-datepicker-current {
+	display: none;
+}
+ .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+ 	color:  #fff !important;
+ }
+ .ui-datepicker .ui-datepicker-buttonpane button{
+ 	padding: 10px 60px !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	margin: 0.5em 8em 1em !important;
+	float: left !important;
+ }
+ .ui-datepicker .ui-datepicker-buttonpane .back_dashboard_btn{
+	box-shadow: 0px 0px 10px 1px rgba(111, 111, 111, 0.75);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(111, 111, 111, 0.75);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(111, 111, 111, 0.75);
+}
+.ui-datepicker td span, .ui-datepicker td a{
+	text-align: center !important;
+	padding: 0 !important;
+}
+.ui-state-highlight{
+	margin: -12px -12px 4px;
+	padding-top: 7px !important;
+}
+ .ui-state-highlight::after {
+    content: "today";
+    text-transform: uppercase;
+    position: absolute;
+	padding-top: 16px;
+	margin-left: -28px;
+}
+.ui-datepicker{
+	width: 381px !important;
+}
+.datepickerBorder {
+border: 10px dotted red;
+}
+.customdate_heading{
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+	background-color: #343740;
+	margin-top: -90%;
+	margin-left: -3px;
+	text-align: center;
+	height: 58px;
+	padding-top: 16px;
+	margin-right: -2.5px;
+}
+.left_sectionp{
+	margin-left: -1.5%;
+}
+.main_section_div .fa{
+	font-size: 40px !important
+}
+.mb11{
+	margin-bottom: 11px;
+}
+.border_ash{
+	border: 3px solid #979797;
+}
+.border_green{
+	border: 3px solid #BDD467;
+}

@@ -1,0 +1,98 @@
+/*!
+ * jQuery Accordion 0.0.1
+ * (c) 2014 Victor Fernandez <victor@vctrfrnndz.com>
+ * MIT Licensed.
+ */
+
+/* Requirements */
+
+[data-accordion] [data-content] {
+    overflow: hidden;
+    max-height: 0;
+}
+
+/* Basic Theme */
+
+[data-accordion] {
+    line-height: 1;
+}
+[data-content] [data-accordion] {
+    border: 0;
+    padding: 0;
+}
+[data-content] {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    color: #585858;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+article{
+    padding: 18.5px;
+}
+[data-accordion] [data-control] {
+    position: relative;
+    padding-right: 40px;
+    color: #585858;
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    padding: 20.5px;
+    cursor: pointer;
+}
+
+[data-accordion] > [data-control]:after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 25px;
+    font-weight: 200;
+    color: #444;
+    height: 15px;
+    width: 24px;
+    background: transparent url("../images/faq_downarrow.png") no-repeat scroll center center / 100% auto;
+}
+
+[data-accordion].open > [data-control]:after {
+    -webkit-transform: rotate(-180deg); 
+    -ms-transform: rotate(-180deg); 
+    transform: rotate(-180deg); 
+}
+#jquery-script-menu {
+width: 100%;
+top: 0;
+left: 0;
+z-index: 999999;
+padding: 10px 0;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+}
+
+.jquery-script-center {
+    margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+    text-decoration:none;
+}
+.jquery-script-ads {
+width: 728px;
+height:90px;
+float:right;
+}
+.jquery-script-clear {
+clear:both;
+height:0;
+}

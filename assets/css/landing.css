@@ -1,0 +1,120 @@
+.no-padding{
+	padding: 0;
+}
+.landing_bg {
+	background: url('../images/dude_one_page_signup.png') no-repeat center bottom;
+	background-size: 1760px auto;
+	width: 100%;
+	margin: auto;
+	height: 1124px;
+	text-decoration: none;
+	display: block;
+	color: #FFF !important;
+	padding-top: 100px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.life_insurance_text{
+	width: 492px;
+	height: 49px;
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 49px;
+}
+
+.sub_text{
+	padding: 0;
+	height: 112px;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+.email_textbox{
+	
+	height: 60px;
+	background-color: white;
+	border: 3px solid #557ac1;
+	border-radius: 40px 0px 0 40px;
+
+	color: #585858 !important;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 22px;
+	padding-left: 20px;
+}
+.sign_me_up{
+	height: 60px;
+	background-color: #557ac1;
+	border-radius:0px  40px 40px 0px;
+	border:none;
+	color: white;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 22px;
+	margin-left: -5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sign_me_up:hover, .sign_me_up:focus, .sign_me_up:active{
+	background-color: #395791 !important;
+	outline: none;
+}
+input[type="text"]:focus {
+	outline: none;
+}
+.p100{
+	padding-top:100px;
+}
+.msg_txt{
+
+	height: 17px;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 17px;
+
+	/* Text style for "Thanks for you" */
+	color: #585858;
+}
+.msg_txt a{
+	color: #557ac1;
+}
+.promise_txt{
+	height: 12px;
+	color: white;
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 12px;
+	padding-top: 10px;
+}
+.err{
+	color: #d34b5c !important;
+	font-weight: 700;
+}
+.has-error input[type="text"]::-webkit-input-placeholder {
+    color: #d34b5c !important;
+	font-weight: 700;
+}
+.has-error input[type="text"]::-moz-input-placeholder {
+    color: #d34b5c !important;
+	font-weight: 700;
+}
+.has-error #email_bottom{
+	color: #d34b5c !important;
+	font-weight: 700;
+}
+@media (max-width: 768px) { 
+  .text-center-align{
+  	text-align:center;
+  }
+  
+}
+
+@media (max-width: 450px) { 
+	.text-margin{
+  		margin-left: -18%;
+		margin-right: -18%;
+ 	}
+
+}
